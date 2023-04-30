@@ -9,9 +9,25 @@
 }
 
 /* Use attribute selectors for the first part of the exercise */
-
+/* This is called the existence */
 li[class] {
   color: var(--red);
+}
+
+li[id="cat"] {
+  color: var(--teal);
+}
+
+li[class^="p"] {
+  color: var(--green);
+}
+
+li[class*="do"] {
+  color: var(--royalblue);
+}
+
+li[class$="g"] {
+  color: var(--violet);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
