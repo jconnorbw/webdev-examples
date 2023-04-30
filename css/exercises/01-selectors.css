@@ -10,9 +10,9 @@
 
 /* Use attribute selectors for the first part of the exercise */
 /* This is called the existence */
-li[class] {
+/* li[class] {
   color: var(--red);
-}
+} */
 
 li[id="cat"] {
   color: var(--teal);
@@ -31,6 +31,15 @@ li[class$="g"] {
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
+/* Apply color violet to first's adjacent siblings */
+.first ~ li {
+  color: var(--violet);
+}
+
+/* Applies color blue to direct sibling */
+.second + li {
+  color: var(--royalblue);
+}
 
 section li {
   color: var(--green);
