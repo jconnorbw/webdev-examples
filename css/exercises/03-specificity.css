@@ -1,5 +1,11 @@
 /* Specificity Exercise */
 
+/* X - Y - Z */
+/* X = The number of ID selectors
+   Y = The number of class, pseudoclass, and attribute selectors
+   Z = The number of element and pseudoelement selectors 
+*/
+
 nav .list-item > a {
   color: var(--purple);
 }
@@ -16,7 +22,8 @@ section .main::first-line {
   color: var(--purple);
 }
 
-nav ul.menu li#first a:not([class='visited']) {
+/* :not is not included so it is only two classes for Y. */
+nav ul.menu li#first a:not([class="visited"]) {
   color: var(--purple);
 }
 
