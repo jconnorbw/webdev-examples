@@ -36,5 +36,27 @@
 /* use height: 400px; on the container */
 
 /* Grid Container 4 */
+.grid-container-4 {
+  display: grid;
+  height: 600px;
+  gap: 10px;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
+}
+
+.grid-container-4 .item1 {
+  grid-row: span 2;
+}
+
+.grid-container-4 .item2,
+.grid-container-4 .item3,
+.grid-container-4 .item5,
+.grid-container-4 .item8 {
+  grid-column: span 3;
+}
+
+.grid-container-4 .item6 {
+  grid-column: span 4;
+}
 
 /* use height: 600px; on the container */
