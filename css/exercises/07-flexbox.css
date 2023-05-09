@@ -22,12 +22,16 @@
   flex-direction: column-reverse;
   flex-wrap: wrap;
   align-items: flex-end;
-  /* align-content: ; */
 }
 
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
+.flex-container-4 {
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+}
 
 /* Flex Container 5 */
 
