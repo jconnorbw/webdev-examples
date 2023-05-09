@@ -7,9 +7,14 @@
 .flex-container-1 {
   flex-wrap: wrap;
   justify-content: center;
-  align-content: stretch;
 }
+
 /* Flex Container 2 */
+.flex-container-2 {
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
 
 /* Flex Container 3 */
 
