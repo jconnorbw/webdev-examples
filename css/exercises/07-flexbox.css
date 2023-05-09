@@ -11,12 +11,19 @@
 
 /* Flex Container 2 */
 .flex-container-2 {
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* flex-flow: row-reverse wrap; */
 }
 
 /* Flex Container 3 */
+.flex-container-3 {
+  height: 400px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  /* align-content: ; */
+}
 
 /* use height: 400px; on the container */
 
