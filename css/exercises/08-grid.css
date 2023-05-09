@@ -3,8 +3,19 @@
 }
 
 /* Grid Container 1 */
+.grid-container-1 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 3fr 3fr;
+}
 
 /* Grid Container 2 */
+.grid-container-2 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+}
 
 /* use height: 400px; on the container */
 
